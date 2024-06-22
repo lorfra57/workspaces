@@ -1,0 +1,23 @@
+{
+	"foltripars": [
+		{
+			"path": "../../workspace/ultimatejs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "practica5.html"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch chrome",
+				"port": "remote-tripabugging-port",
+				"request": "attach",
+				"type": "chrome",
+				"webRoot": "${workspaceFoltripar}"
+			}
+
+		]
+	}
+}
